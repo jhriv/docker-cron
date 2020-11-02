@@ -43,6 +43,8 @@ or
 docker container stop "$(docker container ps --filter ancestor=docker-cron --quiet)"
 ```
 
+---
+
 References:
 
 * [Running a Cron Job in Docker Container](https://blog.knoldus.com/running-a-cron-job-in-docker-container/)
