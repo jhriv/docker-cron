@@ -1,0 +1,7 @@
+#!/bin/bash
+timestamp="$(date -Isec)"
+printf '%s\n' "$timestamp"
+printf 'TESTVAR is "%s"\n' "$TESTVAR"
+printf 'The rest of the environment:\n'
+env
+printf '\n'

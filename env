@@ -1,0 +1,3 @@
+TESTVAR=top notch!
+SECRET=88dd3ea7ffcbb910fbd1d921811817d935310b34
+# SECRET is the sha1sum of /etc/fstab.hd on macOS Catalina

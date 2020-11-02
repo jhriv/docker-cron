@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+  cron:
+    image: "docker-cron"
+    env_file:
+      - env

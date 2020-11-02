@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec docker exec -ti cron_cron.1."$(docker service ps cron_cron --no-trunc -q)" /bin/bash

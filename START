@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec docker stack deploy cron --compose-file docker-compose.yml
